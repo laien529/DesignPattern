@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		48F8D1A5253ADEB6007ABF2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1A4253ADEB6007ABF2F /* AppDelegate.m */; };
-		48F8D1A8253ADEB6007ABF2F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1A7253ADEB6007ABF2F /* SceneDelegate.m */; };
 		48F8D1AB253ADEB6007ABF2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1AA253ADEB6007ABF2F /* ViewController.m */; };
-		48F8D1AE253ADEB6007ABF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F8D1AC253ADEB6007ABF2F /* Main.storyboard */; };
 		48F8D1B0253ADEB9007ABF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F8D1AF253ADEB9007ABF2F /* Assets.xcassets */; };
 		48F8D1B3253ADEB9007ABF2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F8D1B1253ADEB9007ABF2F /* LaunchScreen.storyboard */; };
 		48F8D1B6253ADEB9007ABF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1B5253ADEB9007ABF2F /* main.m */; };
@@ -31,6 +29,16 @@
 		48F8D24A253AF536007ABF2F /* ColaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D249253AF536007ABF2F /* ColaFactory.m */; };
 		48F8D250253AF543007ABF2F /* JuiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D24F253AF543007ABF2F /* JuiceFactory.m */; };
 		48F8D26C253B33F5007ABF2F /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D26B253B33F5007ABF2F /* AbstractFactoryViewController.m */; };
+		48F8D275253C0814007ABF2F /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D274253C0814007ABF2F /* AbstractFactory.m */; };
+		48F8D27B253C0891007ABF2F /* GuangQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D27A253C0891007ABF2F /* GuangQi.m */; };
+		48F8D281253C08A0007ABF2F /* ShangQi.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D280253C08A0007ABF2F /* ShangQi.m */; };
+		48F8D287253C096E007ABF2F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D286253C096E007ABF2F /* Car.m */; };
+		48F8D28D253C097A007ABF2F /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D28C253C097A007ABF2F /* Ship.m */; };
+		48F8D294253C0B0B007ABF2F /* BuilderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D293253C0B0B007ABF2F /* BuilderViewController.m */; };
+		48F8D29D253C0B3B007ABF2F /* AbstractBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D29C253C0B3B007ABF2F /* AbstractBuilder.m */; };
+		48F8D2A3253C0BA2007ABF2F /* BuilderA.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D2A2253C0BA2007ABF2F /* BuilderA.m */; };
+		48F8D2A9253C0BAD007ABF2F /* BuilderB.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D2A8253C0BAD007ABF2F /* BuilderB.m */; };
+		48F8D2BA253C112F007ABF2F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F8D2B9253C112F007ABF2F /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +62,8 @@
 		48F8D1A0253ADEB6007ABF2F /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F8D1A3253ADEB6007ABF2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48F8D1A4253ADEB6007ABF2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48F8D1A6253ADEB6007ABF2F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		48F8D1A7253ADEB6007ABF2F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		48F8D1A9253ADEB6007ABF2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		48F8D1AA253ADEB6007ABF2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		48F8D1AD253ADEB6007ABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48F8D1AF253ADEB9007ABF2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F8D1B2253ADEB9007ABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48F8D1B4253ADEB9007ABF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +104,25 @@
 		48F8D24F253AF543007ABF2F /* JuiceFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuiceFactory.m; sourceTree = "<group>"; };
 		48F8D26A253B33F5007ABF2F /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
 		48F8D26B253B33F5007ABF2F /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
+		48F8D273253C0814007ABF2F /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		48F8D274253C0814007ABF2F /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		48F8D279253C0891007ABF2F /* GuangQi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuangQi.h; sourceTree = "<group>"; };
+		48F8D27A253C0891007ABF2F /* GuangQi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuangQi.m; sourceTree = "<group>"; };
+		48F8D27F253C08A0007ABF2F /* ShangQi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShangQi.h; sourceTree = "<group>"; };
+		48F8D280253C08A0007ABF2F /* ShangQi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShangQi.m; sourceTree = "<group>"; };
+		48F8D285253C096E007ABF2F /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		48F8D286253C096E007ABF2F /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		48F8D28B253C097A007ABF2F /* Ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		48F8D28C253C097A007ABF2F /* Ship.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		48F8D292253C0B0B007ABF2F /* BuilderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
+		48F8D293253C0B0B007ABF2F /* BuilderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
+		48F8D29B253C0B3B007ABF2F /* AbstractBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractBuilder.h; sourceTree = "<group>"; };
+		48F8D29C253C0B3B007ABF2F /* AbstractBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractBuilder.m; sourceTree = "<group>"; };
+		48F8D2A1253C0BA2007ABF2F /* BuilderA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderA.h; sourceTree = "<group>"; };
+		48F8D2A2253C0BA2007ABF2F /* BuilderA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderA.m; sourceTree = "<group>"; };
+		48F8D2A7253C0BAD007ABF2F /* BuilderB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderB.h; sourceTree = "<group>"; };
+		48F8D2A8253C0BAD007ABF2F /* BuilderB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderB.m; sourceTree = "<group>"; };
+		48F8D2B9253C112F007ABF2F /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,20 +174,19 @@
 			isa = PBXGroup;
 			children = (
 				48F8D269253B33D9007ABF2F /* AbstractFactory */,
-				48F8D226253AF389007ABF2F /* FactoryMethod */,
-				48F8D1F1253AE319007ABF2F /* SimpleFactory */,
-				48F8D1DB253AE01F007ABF2F /* Singleton */,
 				48F8D1A3253ADEB6007ABF2F /* AppDelegate.h */,
 				48F8D1A4253ADEB6007ABF2F /* AppDelegate.m */,
-				48F8D1A6253ADEB6007ABF2F /* SceneDelegate.h */,
-				48F8D1A7253ADEB6007ABF2F /* SceneDelegate.m */,
+				48F8D1AF253ADEB9007ABF2F /* Assets.xcassets */,
+				48F8D291253C0AF4007ABF2F /* Builder */,
+				48F8D226253AF389007ABF2F /* FactoryMethod */,
+				48F8D1B4253ADEB9007ABF2F /* Info.plist */,
+				48F8D1B1253ADEB9007ABF2F /* LaunchScreen.storyboard */,
+				48F8D1B5253ADEB9007ABF2F /* main.m */,
+				48F8D1F1253AE319007ABF2F /* SimpleFactory */,
+				48F8D1DB253AE01F007ABF2F /* Singleton */,
 				48F8D1A9253ADEB6007ABF2F /* ViewController.h */,
 				48F8D1AA253ADEB6007ABF2F /* ViewController.m */,
-				48F8D1AC253ADEB6007ABF2F /* Main.storyboard */,
-				48F8D1AF253ADEB9007ABF2F /* Assets.xcassets */,
-				48F8D1B1253ADEB9007ABF2F /* LaunchScreen.storyboard */,
-				48F8D1B4253ADEB9007ABF2F /* Info.plist */,
-				48F8D1B5253ADEB9007ABF2F /* main.m */,
+				48F8D2B9253C112F007ABF2F /* ViewController.xib */,
 			);
 			path = "Design Pattern";
 			sourceTree = "<group>";
@@ -240,8 +263,33 @@
 			children = (
 				48F8D26A253B33F5007ABF2F /* AbstractFactoryViewController.h */,
 				48F8D26B253B33F5007ABF2F /* AbstractFactoryViewController.m */,
+				48F8D273253C0814007ABF2F /* AbstractFactory.h */,
+				48F8D274253C0814007ABF2F /* AbstractFactory.m */,
+				48F8D279253C0891007ABF2F /* GuangQi.h */,
+				48F8D27A253C0891007ABF2F /* GuangQi.m */,
+				48F8D27F253C08A0007ABF2F /* ShangQi.h */,
+				48F8D280253C08A0007ABF2F /* ShangQi.m */,
+				48F8D285253C096E007ABF2F /* Car.h */,
+				48F8D286253C096E007ABF2F /* Car.m */,
+				48F8D28B253C097A007ABF2F /* Ship.h */,
+				48F8D28C253C097A007ABF2F /* Ship.m */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		48F8D291253C0AF4007ABF2F /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				48F8D292253C0B0B007ABF2F /* BuilderViewController.h */,
+				48F8D293253C0B0B007ABF2F /* BuilderViewController.m */,
+				48F8D29B253C0B3B007ABF2F /* AbstractBuilder.h */,
+				48F8D29C253C0B3B007ABF2F /* AbstractBuilder.m */,
+				48F8D2A1253C0BA2007ABF2F /* BuilderA.h */,
+				48F8D2A2253C0BA2007ABF2F /* BuilderA.m */,
+				48F8D2A7253C0BAD007ABF2F /* BuilderB.h */,
+				48F8D2A8253C0BAD007ABF2F /* BuilderB.m */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,7 +396,7 @@
 			files = (
 				48F8D1B3253ADEB9007ABF2F /* LaunchScreen.storyboard in Resources */,
 				48F8D1B0253ADEB9007ABF2F /* Assets.xcassets in Resources */,
-				48F8D1AE253ADEB6007ABF2F /* Main.storyboard in Resources */,
+				48F8D2BA253C112F007ABF2F /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,22 +424,30 @@
 				48F8D26C253B33F5007ABF2F /* AbstractFactoryViewController.m in Sources */,
 				48F8D23E253AF4F0007ABF2F /* Cola.m in Sources */,
 				48F8D1AB253ADEB6007ABF2F /* ViewController.m in Sources */,
+				48F8D29D253C0B3B007ABF2F /* AbstractBuilder.m in Sources */,
 				48F8D21C253AE459007ABF2F /* PC.m in Sources */,
 				48F8D1A5253ADEB6007ABF2F /* AppDelegate.m in Sources */,
+				48F8D28D253C097A007ABF2F /* Ship.m in Sources */,
 				48F8D238253AF4C9007ABF2F /* Drinks.m in Sources */,
 				48F8D1EA253AE180007ABF2F /* SingletonViewController.m in Sources */,
+				48F8D2A3253C0BA2007ABF2F /* BuilderA.m in Sources */,
+				48F8D281253C08A0007ABF2F /* ShangQi.m in Sources */,
 				48F8D244253AF4FD007ABF2F /* Juice.m in Sources */,
+				48F8D294253C0B0B007ABF2F /* BuilderViewController.m in Sources */,
 				48F8D250253AF543007ABF2F /* JuiceFactory.m in Sources */,
 				48F8D24A253AF536007ABF2F /* ColaFactory.m in Sources */,
 				48F8D20D253AE40F007ABF2F /* Product.m in Sources */,
 				48F8D1F4253AE332007ABF2F /* SimpleFactoryViewController.m in Sources */,
+				48F8D275253C0814007ABF2F /* AbstractFactory.m in Sources */,
+				48F8D27B253C0891007ABF2F /* GuangQi.m in Sources */,
 				48F8D232253AF3E8007ABF2F /* Factory.m in Sources */,
+				48F8D287253C096E007ABF2F /* Car.m in Sources */,
 				48F8D206253AE373007ABF2F /* SimpleFactory.m in Sources */,
+				48F8D2A9253C0BAD007ABF2F /* BuilderB.m in Sources */,
 				48F8D216253AE448007ABF2F /* MobilePhone.m in Sources */,
 				48F8D229253AF3C4007ABF2F /* FactoryMethodViewController.m in Sources */,
 				48F8D1B6253ADEB9007ABF2F /* main.m in Sources */,
 				48F8D1DE253AE057007ABF2F /* SingletonInstance.m in Sources */,
-				48F8D1A8253ADEB6007ABF2F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,14 +483,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		48F8D1AC253ADEB6007ABF2F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48F8D1AD253ADEB6007ABF2F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		48F8D1B1253ADEB9007ABF2F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -497,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -550,7 +598,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

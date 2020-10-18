@@ -1,25 +1,29 @@
 //
-//  AbstractFactoryViewController.m
+//  BuilderViewController.m
 //  Design Pattern
 //
-//  Created by csc on 2020/10/17.
+//  Created by csc on 2020/10/18.
 //
 
-#import "AbstractFactoryViewController.h"
-#import "AbstractFactory.h"
+#import "BuilderViewController.h"
+#import "AbstractBuilder.h"
 
-@interface AbstractFactoryViewController ()
+@interface BuilderViewController ()
 
 @end
 
-@implementation AbstractFactoryViewController
+@implementation BuilderViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    AbstractFactory *factory = [[NSClassFromString(@"GuangQi") alloc] init];
-    [factory makeCar];
-    [factory makeShip];
+    AbstractBuilder *builder = [[NSClassFromString(@"BuilderA") alloc] init];
+    [builder step1];
+    [builder step2];
+    [builder step3];
+    [builder step4];
+    [builder step5];
+    [builder getResult];
 }
 
 /*

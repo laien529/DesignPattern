@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Product : NSObject
 
+@property(nonatomic, strong)NSString *name;
+@property(nonatomic, strong)NSNumber *price;
+@property(nonatomic, strong)NSString *unit;
+
 @end
 
 NS_ASSUME_NONNULL_END
