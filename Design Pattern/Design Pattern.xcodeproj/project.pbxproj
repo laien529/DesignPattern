@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		48F8D1A5253ADEB6007ABF2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1A4253ADEB6007ABF2F /* AppDelegate.m */; };
-		48F8D1A8253ADEB6007ABF2F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1A7253ADEB6007ABF2F /* SceneDelegate.m */; };
 		48F8D1AB253ADEB6007ABF2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D1AA253ADEB6007ABF2F /* ViewController.m */; };
 		48F8D1AE253ADEB6007ABF2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F8D1AC253ADEB6007ABF2F /* Main.storyboard */; };
 		48F8D1B0253ADEB9007ABF2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F8D1AF253ADEB9007ABF2F /* Assets.xcassets */; };
@@ -31,6 +30,16 @@
 		48F8D24A253AF536007ABF2F /* ColaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D249253AF536007ABF2F /* ColaFactory.m */; };
 		48F8D250253AF543007ABF2F /* JuiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D24F253AF543007ABF2F /* JuiceFactory.m */; };
 		48F8D26C253B33F5007ABF2F /* AbstractFactoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F8D26B253B33F5007ABF2F /* AbstractFactoryViewController.m */; };
+		B0E93DFE253D1E22001BDC60 /* ProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93DFD253D1E22001BDC60 /* ProxyViewController.m */; };
+		B0E93E02253D1F44001BDC60 /* ProxyA.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E01253D1F44001BDC60 /* ProxyA.m */; };
+		B0E93E05253D2066001BDC60 /* RealSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E04253D2066001BDC60 /* RealSubject.m */; };
+		B0E93E09253D28F9001BDC60 /* AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E08253D28F9001BDC60 /* AdapterViewController.m */; };
+		B0E93E0D253D33E4001BDC60 /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E0C253D33E4001BDC60 /* Adapter.m */; };
+		B0E93E10253D3451001BDC60 /* SubjectOld.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E0F253D3451001BDC60 /* SubjectOld.m */; };
+		B0E93E14253D41DC001BDC60 /* BridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E13253D41DC001BDC60 /* BridgeViewController.m */; };
+		B0E93E18253D7274001BDC60 /* AbstractBag.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E17253D7274001BDC60 /* AbstractBag.m */; };
+		B0E93E1B253D74DF001BDC60 /* Red.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E1A253D74DF001BDC60 /* Red.m */; };
+		B0E93E1E253D7638001BDC60 /* Wallet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E93E1D253D7638001BDC60 /* Wallet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +63,6 @@
 		48F8D1A0253ADEB6007ABF2F /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F8D1A3253ADEB6007ABF2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48F8D1A4253ADEB6007ABF2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48F8D1A6253ADEB6007ABF2F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		48F8D1A7253ADEB6007ABF2F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		48F8D1A9253ADEB6007ABF2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		48F8D1AA253ADEB6007ABF2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48F8D1AD253ADEB6007ABF2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +106,29 @@
 		48F8D24F253AF543007ABF2F /* JuiceFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuiceFactory.m; sourceTree = "<group>"; };
 		48F8D26A253B33F5007ABF2F /* AbstractFactoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryViewController.h; sourceTree = "<group>"; };
 		48F8D26B253B33F5007ABF2F /* AbstractFactoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryViewController.m; sourceTree = "<group>"; };
+		B0E93DFC253D1E22001BDC60 /* ProxyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyViewController.h; sourceTree = "<group>"; };
+		B0E93DFD253D1E22001BDC60 /* ProxyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyViewController.m; sourceTree = "<group>"; };
+		B0E93DFF253D1E43001BDC60 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		B0E93E00253D1F44001BDC60 /* ProxyA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyA.h; sourceTree = "<group>"; };
+		B0E93E01253D1F44001BDC60 /* ProxyA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyA.m; sourceTree = "<group>"; };
+		B0E93E03253D2066001BDC60 /* RealSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealSubject.h; sourceTree = "<group>"; };
+		B0E93E04253D2066001BDC60 /* RealSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealSubject.m; sourceTree = "<group>"; };
+		B0E93E07253D28F9001BDC60 /* AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdapterViewController.h; sourceTree = "<group>"; };
+		B0E93E08253D28F9001BDC60 /* AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdapterViewController.m; sourceTree = "<group>"; };
+		B0E93E0A253D3366001BDC60 /* Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		B0E93E0B253D33E4001BDC60 /* Adapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		B0E93E0C253D33E4001BDC60 /* Adapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		B0E93E0E253D3451001BDC60 /* SubjectOld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectOld.h; sourceTree = "<group>"; };
+		B0E93E0F253D3451001BDC60 /* SubjectOld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectOld.m; sourceTree = "<group>"; };
+		B0E93E12253D41DC001BDC60 /* BridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeViewController.h; sourceTree = "<group>"; };
+		B0E93E13253D41DC001BDC60 /* BridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeViewController.m; sourceTree = "<group>"; };
+		B0E93E15253D7221001BDC60 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		B0E93E16253D7274001BDC60 /* AbstractBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractBag.h; sourceTree = "<group>"; };
+		B0E93E17253D7274001BDC60 /* AbstractBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractBag.m; sourceTree = "<group>"; };
+		B0E93E19253D74DF001BDC60 /* Red.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Red.h; sourceTree = "<group>"; };
+		B0E93E1A253D74DF001BDC60 /* Red.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Red.m; sourceTree = "<group>"; };
+		B0E93E1C253D7638001BDC60 /* Wallet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wallet.h; sourceTree = "<group>"; };
+		B0E93E1D253D7638001BDC60 /* Wallet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wallet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,14 +179,16 @@
 		48F8D1A2253ADEB6007ABF2F /* Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				B0E93E1F253D898F001BDC60 /* Decorator */,
+				B0E93E11253D41CD001BDC60 /* Bridge */,
+				B0E93E06253D28E3001BDC60 /* Adapter */,
+				B0E93DFB253D1E09001BDC60 /* Proxy */,
 				48F8D269253B33D9007ABF2F /* AbstractFactory */,
 				48F8D226253AF389007ABF2F /* FactoryMethod */,
 				48F8D1F1253AE319007ABF2F /* SimpleFactory */,
 				48F8D1DB253AE01F007ABF2F /* Singleton */,
 				48F8D1A3253ADEB6007ABF2F /* AppDelegate.h */,
 				48F8D1A4253ADEB6007ABF2F /* AppDelegate.m */,
-				48F8D1A6253ADEB6007ABF2F /* SceneDelegate.h */,
-				48F8D1A7253ADEB6007ABF2F /* SceneDelegate.m */,
 				48F8D1A9253ADEB6007ABF2F /* ViewController.h */,
 				48F8D1AA253ADEB6007ABF2F /* ViewController.m */,
 				48F8D1AC253ADEB6007ABF2F /* Main.storyboard */,
@@ -242,6 +274,57 @@
 				48F8D26B253B33F5007ABF2F /* AbstractFactoryViewController.m */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		B0E93DFB253D1E09001BDC60 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				B0E93DFC253D1E22001BDC60 /* ProxyViewController.h */,
+				B0E93DFD253D1E22001BDC60 /* ProxyViewController.m */,
+				B0E93DFF253D1E43001BDC60 /* Subject.h */,
+				B0E93E00253D1F44001BDC60 /* ProxyA.h */,
+				B0E93E01253D1F44001BDC60 /* ProxyA.m */,
+				B0E93E03253D2066001BDC60 /* RealSubject.h */,
+				B0E93E04253D2066001BDC60 /* RealSubject.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		B0E93E06253D28E3001BDC60 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				B0E93E07253D28F9001BDC60 /* AdapterViewController.h */,
+				B0E93E08253D28F9001BDC60 /* AdapterViewController.m */,
+				B0E93E0A253D3366001BDC60 /* Target.h */,
+				B0E93E0B253D33E4001BDC60 /* Adapter.h */,
+				B0E93E0C253D33E4001BDC60 /* Adapter.m */,
+				B0E93E0E253D3451001BDC60 /* SubjectOld.h */,
+				B0E93E0F253D3451001BDC60 /* SubjectOld.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		B0E93E11253D41CD001BDC60 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				B0E93E12253D41DC001BDC60 /* BridgeViewController.h */,
+				B0E93E13253D41DC001BDC60 /* BridgeViewController.m */,
+				B0E93E15253D7221001BDC60 /* Color.h */,
+				B0E93E16253D7274001BDC60 /* AbstractBag.h */,
+				B0E93E17253D7274001BDC60 /* AbstractBag.m */,
+				B0E93E19253D74DF001BDC60 /* Red.h */,
+				B0E93E1A253D74DF001BDC60 /* Red.m */,
+				B0E93E1C253D7638001BDC60 /* Wallet.h */,
+				B0E93E1D253D7638001BDC60 /* Wallet.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		B0E93E1F253D898F001BDC60 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,22 +459,31 @@
 				48F8D26C253B33F5007ABF2F /* AbstractFactoryViewController.m in Sources */,
 				48F8D23E253AF4F0007ABF2F /* Cola.m in Sources */,
 				48F8D1AB253ADEB6007ABF2F /* ViewController.m in Sources */,
+				B0E93E14253D41DC001BDC60 /* BridgeViewController.m in Sources */,
+				B0E93E1E253D7638001BDC60 /* Wallet.m in Sources */,
+				B0E93E18253D7274001BDC60 /* AbstractBag.m in Sources */,
 				48F8D21C253AE459007ABF2F /* PC.m in Sources */,
+				B0E93E02253D1F44001BDC60 /* ProxyA.m in Sources */,
 				48F8D1A5253ADEB6007ABF2F /* AppDelegate.m in Sources */,
 				48F8D238253AF4C9007ABF2F /* Drinks.m in Sources */,
+				B0E93E10253D3451001BDC60 /* SubjectOld.m in Sources */,
 				48F8D1EA253AE180007ABF2F /* SingletonViewController.m in Sources */,
 				48F8D244253AF4FD007ABF2F /* Juice.m in Sources */,
 				48F8D250253AF543007ABF2F /* JuiceFactory.m in Sources */,
 				48F8D24A253AF536007ABF2F /* ColaFactory.m in Sources */,
 				48F8D20D253AE40F007ABF2F /* Product.m in Sources */,
+				B0E93E1B253D74DF001BDC60 /* Red.m in Sources */,
+				B0E93E05253D2066001BDC60 /* RealSubject.m in Sources */,
 				48F8D1F4253AE332007ABF2F /* SimpleFactoryViewController.m in Sources */,
 				48F8D232253AF3E8007ABF2F /* Factory.m in Sources */,
+				B0E93DFE253D1E22001BDC60 /* ProxyViewController.m in Sources */,
 				48F8D206253AE373007ABF2F /* SimpleFactory.m in Sources */,
+				B0E93E09253D28F9001BDC60 /* AdapterViewController.m in Sources */,
 				48F8D216253AE448007ABF2F /* MobilePhone.m in Sources */,
 				48F8D229253AF3C4007ABF2F /* FactoryMethodViewController.m in Sources */,
 				48F8D1B6253ADEB9007ABF2F /* main.m in Sources */,
+				B0E93E0D253D33E4001BDC60 /* Adapter.m in Sources */,
 				48F8D1DE253AE057007ABF2F /* SingletonInstance.m in Sources */,
-				48F8D1A8253ADEB6007ABF2F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -550,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

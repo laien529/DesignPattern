@@ -21,7 +21,8 @@
     // Do any additional setup after loading the view.
     PC *pc = [SimpleFactory makeProduct:PCType];
     MobilePhone *phone = [SimpleFactory makeProduct:PHONEType];
-
+    [pc play];
+    [phone play];
 }
 
 /*

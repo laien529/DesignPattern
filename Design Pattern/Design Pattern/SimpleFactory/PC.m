@@ -9,4 +9,8 @@
 
 @implementation PC
 
+- (void)play {
+    
+}
+
 @end

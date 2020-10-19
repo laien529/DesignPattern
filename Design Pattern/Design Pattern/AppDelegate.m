@@ -6,9 +6,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BridgeViewController.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
@@ -16,6 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    BridgeViewController *root = [[BridgeViewController alloc] init];
+    self.window.rootViewController = root;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

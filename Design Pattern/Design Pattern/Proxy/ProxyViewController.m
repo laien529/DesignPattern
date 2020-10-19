@@ -1,30 +1,24 @@
 //
-//  SingletonViewController.m
+//  ProxyViewController.m
 //  Design Pattern
 //
-//  Created by csc on 2020/10/17.
+//  Created by chengsc on 2020/10/19.
 //
 
-#import "SingletonViewController.h"
-#import "SingletonInstance.h"
+#import "ProxyViewController.h"
+#import "Subject.h"
 
-@interface SingletonViewController ()
+@interface ProxyViewController ()
 
 @end
 
-@implementation SingletonViewController
+@implementation ProxyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    SingletonInstance *singleton = [SingletonInstance sharedInstance];
-    NSLog(@"%@",singleton.class);
-}
-
-- (void)viewDidDisappear:(BOOL)animated {
-    SingletonInstance *singleton = [SingletonInstance sharedInstance];
-    NSLog(@"%@",singleton.class);
-
+    id<Subject> proxyA = [[NSClassFromString(@"ProxyA") alloc] init];
+    [proxyA doSomeThing];
 }
 
 /*

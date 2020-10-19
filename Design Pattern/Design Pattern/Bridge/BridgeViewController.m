@@ -1,30 +1,27 @@
 //
-//  SingletonViewController.m
+//  BridgeViewController.m
 //  Design Pattern
 //
-//  Created by csc on 2020/10/17.
+//  Created by chengsc on 2020/10/19.
 //
 
-#import "SingletonViewController.h"
-#import "SingletonInstance.h"
+#import "BridgeViewController.h"
+#import "AbstractBag.h"
+#import "Color.h"
 
-@interface SingletonViewController ()
+@interface BridgeViewController ()
 
 @end
 
-@implementation SingletonViewController
+@implementation BridgeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    SingletonInstance *singleton = [SingletonInstance sharedInstance];
-    NSLog(@"%@",singleton.class);
-}
-
-- (void)viewDidDisappear:(BOOL)animated {
-    SingletonInstance *singleton = [SingletonInstance sharedInstance];
-    NSLog(@"%@",singleton.class);
-
+    self.view.backgroundColor = [UIColor systemPinkColor];
+    AbstractBag *bag = [[NSClassFromString(@"Wallet") alloc] init];
+    id<Color> color = [[NSClassFromString(@"Red") alloc] init];
+    [bag setBagColor:color];
 }
 
 /*

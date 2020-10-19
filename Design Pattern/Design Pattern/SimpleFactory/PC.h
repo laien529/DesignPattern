@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PC : Product
 
+- (void)play;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -1,30 +1,23 @@
 //
-//  SingletonViewController.m
+//  AdapterViewController.m
 //  Design Pattern
 //
-//  Created by csc on 2020/10/17.
+//  Created by chengsc on 2020/10/19.
 //
 
-#import "SingletonViewController.h"
-#import "SingletonInstance.h"
-
-@interface SingletonViewController ()
+#import "AdapterViewController.h"
+#import "Adapter.h"
+#import "SubjectOld.h"
+@interface AdapterViewController ()
 
 @end
 
-@implementation SingletonViewController
+@implementation AdapterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    SingletonInstance *singleton = [SingletonInstance sharedInstance];
-    NSLog(@"%@",singleton.class);
-}
-
-- (void)viewDidDisappear:(BOOL)animated {
-    SingletonInstance *singleton = [SingletonInstance sharedInstance];
-    NSLog(@"%@",singleton.class);
-
+    [[[Adapter alloc] initWithSubject:[SubjectOld new]] newRequest];
 }
 
 /*
